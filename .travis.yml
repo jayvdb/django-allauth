@@ -61,10 +61,6 @@ script:
 after_success:
   - coveralls
 
-branches:
- only:
-  - master
-
 notifications:
   webhooks:
     urls:
